@@ -1,0 +1,293 @@
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+header{
+
+   
+    background-color: #00FFAB;
+ width: auto;
+
+}
+
+header h1{
+
+    text-align: center;
+    font-size: 40px;
+   font-family: cursive;
+    text-decoration:none ;
+
+}
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+
+   
+
+}
+
+
+nav ul li {
+    list-style-type: none;
+    background-color: aquamarine;
+    margin: 5px;
+    display: inline-block;  
+    font-family: cursive; 
+    border-radius: 50px;
+    padding: 2px;
+    font-weight: bold;
+}
+
+nav ul li a {
+    text-decoration: none;  
+
+}
+
+
+nav{
+    background-color:#14C38E ;
+    
+} 
+
+section.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    background-color: rgb(45, 224, 120);
+    
+   
+   
+}
+
+div.card-grid {
+    display: grid;
+    grid-template-areas:"card-img card-titulo"
+                        "card-img cardtext"
+                                        ;
+                        background-color: rgba(9, 255, 0, 0.822);
+                        padding: 10px;
+                 
+                        height: 400px;
+                        
+                       
+}
+
+div.card-img{
+   grid-area: card-img;
+
+                      background-color: rgb(60, 194, 149);
+                      padding: 10px;
+                      height: 320px;
+   
+                     
+}
+
+
+div.card-titulo{
+    grid-area: card-titulo;
+    text-align: left;
+  
+              
+                          
+background-color: aquamarine;
+padding: 10px;
+width: auto;
+height: 50px;
+font-size: 11px;
+
+
+    
+}
+div.cardtext{
+    grid-area: cardtext;
+    background-color: rgb(20, 149, 172);
+    padding: 10px;
+    height: 210px;
+    font-size: 15px;
+  
+}
+
+
+
+
+
+
+
+.colorfooter{
+    background-color: #39f0b9;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+       
+        
+       
+}
+.colorfooter2{
+    background-color: #39f0b9;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+       padding: 100px;
+        
+       
+}
+
+
+.textofooter{
+    color: white;
+    
+  
+}
+.formulario{
+    min-height: 77vh;
+}
+
+
+.tratamientos{
+text-align: center;
+background-color: #00FFAB;
+
+}
+.pacientes{
+    text-align: center;
+background-color: #00FFAB;
+
+
+}
+
+
+.datos{
+    text-align: center;
+background-color: #00FFAB;
+
+
+}
+
+
+
+.formulario{
+    background-color: #39f0b9;
+   
+   
+}
+.promociones{
+    text-align: center;
+    background-color: #f700ff;
+    
+    }
+
+
+@media screen and (min-width: 600px) {
+header{
+    width: auto;
+
+    .container{
+      
+        height: 900px;
+       
+    }
+}
+div.card-grid {
+width: auto;
+display: grid;
+grid-template-areas:"card-img card-titulo"
+                    "card-img cardtext";
+                        
+                       
+}
+
+div.card-titulo{
+
+width: auto;
+font-size: 20px;
+text-align: center;
+
+    
+}
+
+div.cardtext{
+ width: auto;
+    font-size: 25px;
+  
+}
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    .contenedor{
+
+        display: grid;
+        grid-template-areas: "card1 card2"
+                             "card3 card4";
+
+    }
+
+    div.card-grid{
+        width: 1250px;
+    }
+    .container{
+      padding: 40px;
+        height: 50px;
+       
+    }
+
+   
+}
+
+div.carrusel{
+    
+    background-color: #179ba0;
+
+  
+    
+}
+
+
+.title{
+    text-align: center;
+    font-size: 40px;
+    color: #6a6a6a;
+    margin-top: 100px;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    height: 1500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.container .card{
+    width: 330px;
+    height: 430px;
+    border-radius: 15px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    font-size: 15px;
+    transition: all 0.25s;
+}
+
+.container .card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+
+    
+.carousel-inner  img{
+    width: 50%;
+    height: 50%;
+   align-content: center;
+}
+
+
+  
+
+   
+
+
